@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="J2yq-C89FXUGNsSaLX4E" name="Страница 1">
+        <mxGraphModel dx="1151" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="VSM-карта процесса формирования отчетности о продажах (&quot;ПОСЛЕ&quot; реализации проекта в минутах):" style="rounded=0;whiteSpace=wrap;verticalAlign=middle;align=center;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="40" width="760" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="Общее время: t = 18 минут;&#10;CVA — client-value added — действие, добавляющее ценность для клиента (обработка, сборка, оказание услуги, выполнение требуемой работы) - 1 минут;&#10;BVA — business-value added — действие, добавляющее ценность для бизнеса (сбор данных для управления деятельностью и формирования отчетов) - 17 минут;&#10;NVA — non-value added — действие, НЕ добавляющее никакой ценности - 0 минут." style="rounded=1;whiteSpace=wrap;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="360" width="680" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="Сотрудник отдела вводит свои продажи" style="strokeWidth=2;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="120" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="BVA" style="text;fontSize=12;spacingLeft=2;verticalAlign=middle;align=center;spacingTop=-5;resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="206">
+                    <mxGeometry width="120" height="22.285714285714285" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="7" style="shape=partialRectangle;whiteSpace=wrap;bottom=0;right=0;fillColor=none;verticalAlign=middle;align=center;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="" style="shape=partialRectangle;whiteSpace=wrap;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=middle;align=center;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="280" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="" style="edgeStyle=none;fontFamily=Helvetica;fontSize=12;verticalAlign=middle;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="212" source="206">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="211" value="" style="edgeStyle=none;fontFamily=Helvetica;fontSize=12;verticalAlign=middle;align=center;" edge="1" parent="1" source="212" target="214">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="Подтверждение операций&#10;заведующим отделом" style="strokeWidth=2;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="120" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="BVA" style="text;fontSize=12;spacingLeft=2;verticalAlign=middle;align=center;spacingTop=-5;resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="212">
+                    <mxGeometry width="120" height="22.285714285714285" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="Получение сводного отчета по всему отделу/отделению" style="strokeWidth=2;shape=mxgraph.lean_mapping.manufacturing_process;fontSize=12;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="120" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="CVA" style="text;fontSize=12;spacingLeft=2;verticalAlign=middle;align=center;spacingTop=-5;resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="214">
+                    <mxGeometry width="120" height="22.285714285714285" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="10" style="shape=partialRectangle;whiteSpace=wrap;bottom=0;right=0;fillColor=none;verticalAlign=middle;align=center;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="" style="shape=partialRectangle;whiteSpace=wrap;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;verticalAlign=middle;align=center;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="280" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="1" style="shape=partialRectangle;whiteSpace=wrap;bottom=0;right=0;fillColor=none;verticalAlign=middle;align=center;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;top=0;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Информационный ресурс&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Информационный ресурс&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
